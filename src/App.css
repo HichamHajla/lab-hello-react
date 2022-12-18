@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -7,9 +8,85 @@
   pointer-events: none;
 }
 
+.NavBar{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+}
+
+.bodyPage{
+  height: 500px;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 60px;
+}
+
+.bodyPage h1{
+  font-size: 70px;
+  margin-bottom: 0;
+}
+
+.Fourlogo{
+padding-left: 20px;
+height: 400px;
+font-size: 15px;
+background-color: white;
+display: flex;
+justify-content: space-around;
+}
+
+.Fourlogo h1{
+  text-align:left;
+  color : #282c34;
+  margin: 0%;
+}
+.Fourlogo p{
+  color : gray;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.exemple{
+  display: flex;
+  flex-direction: column ;
+  width : 160px;
+}
+
+.pics{
+  width: 150px;
+}
+
+.button{
+  margin-top: 40px;
+  font-weight: bolder;
+  color :#282c34;
+  background-color: white;
+  border: none;
+  height: 35px;
+  width: 90px;
+  border-radius: 5%;
+  
+}
+
+.menuTop{
+  height: 15px;
+  padding-top: 15px;
+  padding-right: 100px;
+}
+
+.logoIron{
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 0.5s linear;
   }
 }
 
